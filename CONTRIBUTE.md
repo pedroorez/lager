@@ -18,6 +18,14 @@ Install docker and docker-compose
 
 ### Working environment container
 
+If you don't have a docker-compose.env file you can use the docker-compose.example.env provided on the root of the project.
+
+```bash
+cp docker-compose.example.env docker-compose.env
+```
+
+After that run docker-compose
+
 ```bash
 docker-compose run node zsh
 ```
